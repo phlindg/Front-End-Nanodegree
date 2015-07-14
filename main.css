@@ -1,0 +1,79 @@
+html {
+	background-color:gray;
+}
+body {
+	width:100%;
+	box-shadow: gray;
+	background-color:white;
+	display:flex;
+	flex-wrap:wrap;
+}
+@media screen and (min-width: 1200px){
+	body {
+		width: 1200px;
+		margin-right:auto;
+		margin-left:auto;
+	}
+}
+.name {
+	order:1;
+	color:#000000;
+	float:right;
+	margin-left:auto;
+	font-size: 120%;
+	font-family:"Courier New", Courier, monospace;
+	margin-top:10px;
+	position: relative;
+
+}
+.middleIMG {
+	order:2;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
+	width:60%;
+	height:60%;
+	padding-left:50px;
+	border:1px solid #021a40;
+
+
+}
+.work {
+	order:3;
+	width:100%;
+	font-family:"Ubuntu", Arial, sans-serif;
+	font-size: 120%;
+	list-style-type: none;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.work li {
+	display:inline;
+	float:left;
+	width:30%;
+	padding-left:10px;
+
+
+}
+.work img {
+	padding-left:40px;
+	height:150px;
+	padding-left:10px;
+
+}
+.contact {
+	list-style-type: none;
+	font-family:"Ubuntu", Arial, sans-serif;
+	padding-top:200px;
+	position: absolute;
+	order:0;
+	font-size:150%;
+}
+.logo {
+	width:10%;
+	height:15%;
+	order:-2;
+	float:right;
+}
